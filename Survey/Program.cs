@@ -56,7 +56,10 @@ namespace Survey
                 Console.WriteLine("You are a Gemini");
             }
         }
-         static string WriteTryAgain()
+
+        // On Branch1 create at least 1 commit and push those changes 
+
+        static string WriteTryAgain()
         {
             Console.WriteLine("You didn't type anything, please try again");
             return Console.ReadLine();
